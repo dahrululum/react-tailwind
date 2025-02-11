@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar />
      <Homepage />
-    {/* <Footer /> */}
+    <Footer />
       {/* <h1 className='text-3xl text-red-400 font-bold'>Hello word</h1> */}
      
     </>

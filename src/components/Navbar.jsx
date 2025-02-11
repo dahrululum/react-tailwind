@@ -23,7 +23,7 @@ function Navbar() {
                 
             });
         });   
-        let scrollActive = scroll ? "py-6 bg-white shadow" : "py-4";
+        let scrollActive = scroll ? "py-3 bg-white shadow" : "py-2";
   return (
     <div className={`navbar fixed w-full transition-all  ${scrollActive}`}>
         <div className="container mx-auto px-4">
@@ -34,19 +34,19 @@ function Navbar() {
                 <ul className={`flex lg:gap-12 md:static md:flex-row md:bg-transparent md:shadow-none md:w-auto md:h-auto md:translate-y-0 md:text-black md:p-0 md:m-0 md:transision-none gap-8 ${menuActive} top-1/2 fixed -translate-y-1/2 flex-col px-8 py-6 rounded shadow-slate-300 bg-sky-400 font-bold text-white transision-all `} >
                     <li className="flex items-center gap-3">
                         <i className="ri-home-2-line text-3xl md:hidden block"></i>
-                        <a href="#" className="font-medium opacity-75">Beranda</a>
+                        <a href="#home" className="font-medium opacity-75">Beranda</a>
                     </li>
                     <li className="flex items-center gap-3">
                         <i className="ri-information-2-line text-3xl md:hidden block"></i>
-                        <a href="#" className="font-medium opacity-75">Tentang Kami</a>
+                        <a href="#about" className="font-medium opacity-75">Tentang Kami</a>
                     </li>
                     <li className="flex items-center gap-3">
                         <i className="ri-settings-3-line text-3xl md:hidden block"></i>
-                        <a href="#" className="font-medium opacity-75">Layanan</a>
+                        <a href="#services" className="font-medium opacity-75">Layanan</a>
                     </li>
                     <li className="flex items-center gap-3">
                         <i className="ri-image-2-line text-3xl md:hidden block"></i>
-                        <a href="#" className="font-medium opacity-75">Proyek</a>
+                        <a href="#proyek" className="font-medium opacity-75">Proyek</a>
                     </li>
                      
                 </ul>
